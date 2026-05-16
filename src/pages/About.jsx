@@ -187,7 +187,7 @@ function About() {
 
                 <div className="relative p-12 backdrop-blur-md bg-white/5 text-center">
                   <motion.img
-                    src="/photo/ashish.png"
+                   src="/photo/ashish.png"
                     alt="Founder"
                     className="w-24 h-24 mx-auto rounded-full border-4 border-cyan-400 shadow-lg mb-6 object-cover"
                     whileHover={{ scale: 1.1 }}
