@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 // import Chatbot from "./components/Chatbot";
 import Home from "./pages/home";
 import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
+import Portfolio from "./pages/portfolio";
 import Services from "./pages/Services";
 import ServiceDetail from "./pages/ServiceDetail";
 import Contact from "./pages/Contact";
