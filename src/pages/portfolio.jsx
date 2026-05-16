@@ -18,7 +18,7 @@ const projects = [
   {
     src: "/photo/1.png",
     category: "Web Development",
-    title: "OAK HAVEN",
+    title: "NOVACART",
     description: "Premium animated business experience",
      link: "https://novacart-fj8q43s0p-ashish24.vercel.app/",
   },
