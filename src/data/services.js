@@ -142,33 +142,33 @@ export const services = [
     ],
     deliverables: ["Final MP4 video", "Social media cuts", "Captions when needed", "Thumbnail frame"],
   },
-  // {
-  //   slug: "paid-advertising",
-  //   title: "Paid Advertising",
-  //   desc: "Performance-driven ad campaigns.",
-  //   skills: ["Google Ads", "Meta Ads", "Analytics"],
-  //   price: "₹ 1,299",
-  //   image: "/photo/image copy 5.png",
-  //   icon: Megaphone,
-  //   gradient: "from-green-600 to-emerald-500",
-  //   rating: 4.8,
-  //   overview:
-  //     "We plan and manage paid campaigns that bring targeted traffic to your website and landing pages.",
-  //   tools: ["Google Ads", "Meta Ads Manager", "Google Analytics", "Search Console", "Looker Studio"],
-  //   websiteUse: [
-  //     "Landing pages designed for campaign traffic",
-  //     "Tracking setup for leads, clicks, and conversions",
-  //     "Ad creatives connected to website offers",
-  //     "Performance reports to improve future campaigns",
-  //   ],
-  //   process: [
-  //     "Define audience, budget, and campaign objective",
-  //     "Prepare ad copy, creatives, and landing page direction",
-  //     "Launch campaigns with tracking",
-  //     "Optimize targeting, budget, and creative performance",
-  //   ],
-  //   deliverables: ["Campaign setup", "Tracking guidance", "Ad creative direction", "Performance report"],
-  // },
+  {
+    slug: "paid-advertising",
+    title: "Paid Advertising",
+    desc: "Performance-driven ad campaigns.",
+    skills: ["Google Ads", "Meta Ads", "Analytics"],
+    price: "₹ 1,299",
+    image: "/photo/image copy 5.png",
+    icon: Megaphone,
+    gradient: "from-green-600 to-emerald-500",
+    rating: 4.8,
+    overview:
+      "We plan and manage paid campaigns that bring targeted traffic to your website and landing pages.",
+    tools: ["Google Ads", "Meta Ads Manager", "Google Analytics", "Search Console", "Looker Studio"],
+    websiteUse: [
+      "Landing pages designed for campaign traffic",
+      "Tracking setup for leads, clicks, and conversions",
+      "Ad creatives connected to website offers",
+      "Performance reports to improve future campaigns",
+    ],
+    process: [
+      "Define audience, budget, and campaign objective",
+      "Prepare ad copy, creatives, and landing page direction",
+      "Launch campaigns with tracking",
+      "Optimize targeting, budget, and creative performance",
+    ],
+    deliverables: ["Campaign setup", "Tracking guidance", "Ad creative direction", "Performance report"],
+  },
 ];
 
 export const getServiceBySlug = (slug) =>
