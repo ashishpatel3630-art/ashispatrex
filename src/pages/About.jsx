@@ -171,85 +171,160 @@ function About() {
               </div>
             </motion.div>
           </section>
+<section className="py-16 px-6">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
-   
-          <section className="py-16 px-6">
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="max-w-2xl mx-auto"
+    {/* CARD 1 */}
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+    >
+      <div className="group relative rounded-3xl overflow-hidden">
+        <div className="absolute inset-0 bg-linear-to-br from-blue-600 via-purple-600 to-cyan-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+        <div className="absolute inset-0 rounded-3xl border border-white/10 group-hover:border-white/30 transition-all duration-300"></div>
+
+        <div className="relative p-12 backdrop-blur-md bg-white/5 text-center">
+          <motion.img
+            src="/photo/ashish.png"
+            alt="Founder"
+            className="w-24 h-24 mx-auto rounded-full border-4 border-cyan-400 shadow-lg mb-6 object-cover"
+            whileHover={{ scale: 1.1 }}
+          />
+
+          <h2 className="text-3xl font-bold mb-2">Ashish Mewada</h2>
+
+          <p className="text-xl bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent font-semibold mb-4">
+            Founder & CEO
+          </p>
+
+          <p className="text-gray-300 mb-2">
+            Frontend Developer & UI/UX Designer
+          </p>
+
+          <p className="text-gray-400 mb-8">
+            2+ years of experience creating digital excellence
+          </p>
+
+          <div className="flex justify-center gap-6 text-2xl">
+            <motion.a
+              href="https://instagram.com/its_ashish_patel._"
+              target="_blank"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              className="text-pink-500 hover:text-pink-400"
             >
-              <div className="group relative rounded-3xl overflow-hidden">
-                <div className="absolute inset-0 bg-linear-to-br from-blue-600 via-purple-600 to-cyan-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
-                <div className="absolute inset-0 rounded-3xl border border-white/10 group-hover:border-white/30 transition-all duration-300"></div>
+              <FaInstagram />
+            </motion.a>
 
-                <div className="relative p-12 backdrop-blur-md bg-white/5 text-center">
-                  <motion.img
-                   src="/photo/ashish.png"
-                    alt="Founder"
-                    className="w-24 h-24 mx-auto rounded-full border-4 border-cyan-400 shadow-lg mb-6 object-cover"
-                    whileHover={{ scale: 1.1 }}
-                  />
-                  
-                  <h2 className="text-3xl font-bold mb-2">Ashish Mewada</h2>
-                  <p className="text-xl bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent font-semibold mb-4">
-                    Founder & CEO
-                  </p>
+            <motion.a
+              href="https://wa.me/917999847253"
+              target="_blank"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              className="text-green-500 hover:text-green-400"
+            >
+              <FaWhatsapp />
+            </motion.a>
 
-                  <p className="text-gray-300 mb-2">
-                    Frontend Developer & UI/UX Designer
-                  </p>
-                  <p className="text-gray-400 mb-8">
-                    2+ years of experience creating digital excellence
-                  </p>
+            <motion.a
+              href="https://linkedin.com/in/ashish-mewada-0499ba379"
+              target="_blank"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              className="text-blue-500 hover:text-blue-400"
+            >
+              <FaLinkedin />
+            </motion.a>
 
-                  <div className="flex justify-center gap-6 text-2xl">
-                    <motion.a
-                      href="https://instagram.com/its_ashish_patel._"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      whileHover={{ scale: 1.2, rotate: 5 }}
-                      className="text-pink-500 hover:text-pink-400 transition"
-                    >
-                      <FaInstagram />
-                    </motion.a>
+            <motion.a
+              href="https://github.com"
+              target="_blank"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              className="text-gray-400 hover:text-white"
+            >
+              <FaGithub />
+            </motion.a>
+          </div>
+        </div>
+      </div>
+    </motion.div>
 
-                    <motion.a
-                      href="https://wa.me/917999847253"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      whileHover={{ scale: 1.2, rotate: 5 }}
-                      className="text-green-500 hover:text-green-400 transition"
-                    >
-                      <FaWhatsapp />
-                    </motion.a>
+    {/* CARD 2 (same design) */}
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+    >
+      <div className="group relative rounded-3xl overflow-hidden">
+        <div className="absolute inset-0 bg-linear-to-br from-blue-600 via-purple-600 to-cyan-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+        <div className="absolute inset-0 rounded-3xl border border-white/10 group-hover:border-white/30 transition-all duration-300"></div>
 
-                    <motion.a
-                      href="https://linkedin.com/in/ashish-mewada-0499ba379"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      whileHover={{ scale: 1.2, rotate: 5 }}
-                      className="text-blue-500 hover:text-blue-400 transition"
-                    >
-                      <FaLinkedin />
-                    </motion.a>
+        <div className="relative p-12 backdrop-blur-md bg-white/5 text-center">
+          <motion.img
+            src="/photo/raj.png"
+            alt="Founder"
+            className="w-24 h-24 mx-auto rounded-full border-4 border-cyan-400 shadow-lg mb-6 object-cover"
+            whileHover={{ scale: 1.1 }}
+          />
 
-                    <motion.a
-                      href="https://github.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      whileHover={{ scale: 1.2, rotate: 5 }}
-                      className="text-gray-400 hover:text-white transition"
-                    >
-                      <FaGithub />
-                    </motion.a>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
-          </section>
+          <h2 className="text-3xl font-bold mb-2">Raj Patel</h2>
+
+          <p className="text-xl bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent font-semibold mb-4">
+            CO-Founder
+          </p>
+
+          <p className="text-gray-300 mb-2">
+           MERN Stack Developer 
+          </p>
+
+          <p className="text-gray-400 mb-8">
+            3+ years of experience creating digital excellence
+          </p>
+
+              <div className="flex justify-center gap-6 text-2xl">
+            <motion.a
+              href="https://instagram.com/its_ashish_patel._"
+              target="_blank"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              className="text-pink-500 hover:text-pink-400"
+            >
+              <FaInstagram />
+            </motion.a>
+
+            <motion.a
+              href="https://wa.me/919691368925"
+              target="_blank"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              className="text-green-500 hover:text-green-400"
+            >
+              <FaWhatsapp />
+            </motion.a>
+
+            <motion.a
+              href="https://linkedin.com/in/ashish-mewada-0499ba379"
+              target="_blank"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              className="text-blue-500 hover:text-blue-400"
+            >
+              <FaLinkedin />
+            </motion.a>
+
+            <motion.a
+              href="https://github.com"
+              target="_blank"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              className="text-gray-400 hover:text-white"
+            >
+              <FaGithub />
+            </motion.a>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+
+  </div>
+</section>
+
 
          
           <section className="py-16 px-6 pb-32">

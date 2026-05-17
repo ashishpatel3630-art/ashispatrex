@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter >
       <Navbar />
-      {/* <Chatbot /> */}
+ 
 
       <Routes>
   <Route path="/" element={<Home />} />

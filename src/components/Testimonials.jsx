@@ -4,21 +4,23 @@ import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
-    text: "Exceptional quality of work and attention to detail. Their team played a key role in scaling my business digitally. Communication was seamless, and every deliverable was completed on time.",
-    name: "Bob Crew",
-    role: "Digital Marketer",
-    avatar: "BC",
+    text: "Working with Patrex Media was one of the best decisions for my business. They completely redesigned our website and improved our online presence. Within a few weeks, we started getting more customer inquiries through Instagram and Google. Their communication and dedication really stood out.",
+    name: "Rohit Sharma",
+    role: "Cafe Owner",
+    avatar: "RS",
   },
+
   {
-    text: "Awesome Work! High standard and great work. Really helped transform our online presence. Highly recommended!",
-    name: "Abhishek",
-    role: "Shop Owner",
-    avatar: "AK",
+    text: "I honestly loved the experience of working with this team. They understood exactly what I wanted and turned my ideas into a clean, modern website. The design felt premium and the entire process was smooth from start to finish.",
+    name: "Abhishek Verma",
+    role: "Fitness Coach",
+    avatar: "AV",
   },
+
   {
-    text: "High standard and excellent quality of work. They helped my business grow in digital. Amazing communication and support throughout.",
-    name: "JOJO ADAM",
-    role: "Digital Marketer",
+    text: "Professional, creative, and very supportive. They helped us improve our branding and social media presence, which brought more engagement and better trust from customers. I’d definitely recommend them to anyone looking to grow online.",
+    name: "Jojo Adam",
+    role: "Digital Marketing Consultant",
     avatar: "JA",
   }
 ];
