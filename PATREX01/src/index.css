@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Hides native cursor globally only inside the interactive zone */
+  .custom-zone-cursor {
+    cursor: none !important;
+  }
+  .custom-zone-cursor * {
+    cursor: none !important;
+  }
+
+  /* Structural glass treatment with crisp 1px borders */
+  .agency-glass-surface {
+    background: linear-gradient(180deg, rgba(16, 16, 20, 0.70) 0%, rgba(10, 10, 12, 0.95) 100%);
+    box-shadow: 0 40px 80px -15px rgba(0, 0, 0, 0.8), inset 0 1px 0px 0px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+  }
+}
+@layer utilities {
+  .classic-motion-zone {
+    cursor: none !important;
+  }
+  .classic-motion-zone * {
+    cursor: none !important;
+  }
+}
+
+
+@layer utilities {
+  .faq-motion-zone {
+    cursor: none !important;
+  }
+  .faq-motion-zone * {
+    cursor: none !important;
+  }
+}
+
+@layer utilities {
+  .avant-garde-cursor-zone {
+    cursor: none !important;
+  }
+  .avant-garde-cursor-zone * {
+    cursor: none !important;
+  }
+}
