@@ -18,6 +18,7 @@ import PremiumTechStack from "./page/TechStac";
 import PremiumPreFooterShowcase from "./page/PreFooter";
 import Work from "./page/work";
 import Contact from "./page/contact";
+import AboutAndTeam from "./components/About";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
                 <Services />
                 <PremiumPortfolioSection />
                 <Clients />
+                
                 <PremiumTechStack />
                 <PremiumFaqStack />
                 <PremiumPreFooterShowcase />
@@ -64,6 +66,15 @@ function App() {
             element={
               <>
                 <Contact />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/about"
+            element={
+              <>
+                <AboutAndTeam/>
                 <Footer />
               </>
             }
