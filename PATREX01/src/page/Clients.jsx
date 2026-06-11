@@ -12,23 +12,23 @@ const TESTIMONIALS = [
     full: "From design to development, everything felt seamless and intentional. The team was extremely professional, communicated clearly, and delivered a final product that exceeded expectations in both design and performance.",
     name: "Ashish Mewada",
     role: "CEO Patrex Media",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+    avatar: "Photos/team/ashish.png"
   },
   {
     id: 2,
     short: "A complete transformation of our digital presence.",
-    full: "A complete transformation of our digital presence. The website is fast, modern, and beautifully aligned with our brand identity. The attention to detail was outstanding.",
-    name: "Rahul Sharma",
-    role: "Startup Founder",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+    full: "A complete transformation of our Robot presence. The website is fast, modern, and beautifully aligned with our brand identity. The attention to detail was outstanding.",
+    name: "Raman Lodhi",
+    role: "startopilot Founder",
+    avatar: "Photos/Clients/raman.png"
   },
   {
     id: 3,
     short: "The motion design feels alive and intentional.",
     full: "The motion design feels alive and intentional. Every transition, spacing, and interaction reflects a high level of craftsmanship and design thinking.",
-    name: "Aman Verma",
+    name: "Nikunj ",
     role: "Entrepreneur",
-    avatar: "https://images.unsplash.com/photo-1628157582853-a796fa650a6a?w=150&auto=format&fit=crop&q=80"
+    avatar: "Photos/Clients/nikunj.png"
   }
 ];
 

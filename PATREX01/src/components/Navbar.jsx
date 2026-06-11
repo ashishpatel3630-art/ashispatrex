@@ -201,7 +201,7 @@ export default function Navbar() {
           
           <div className="hidden md:block nav-load-element">
             <a
-              href="mailto:hello@patrexmedia.com"
+              href="mailto:patrexmedia1@gmail.com"
               onMouseEnter={handleElementEnter}
               onMouseLeave={handleElementLeave}
               className="inline-block font-mono text-[10px] uppercase tracking-[3px] border border-white/10 px-6 py-2.5 rounded-full text-zinc-300 hover:border-white/40 hover:text-white transition-all duration-300"
@@ -264,10 +264,10 @@ export default function Navbar() {
         
             <li className="mobile-link-node opacity-0 pt-4 border-t border-white/5 mt-2">
               <a
-                href="mailto:hello@patrexmedia.com"
+                href="mailto:patrexmedia1@gmail.com"
                 className="inline-block font-mono text-[10px] uppercase tracking-[2px] text-zinc-400 hover:text-white"
               >
-                hello@patrexmedia1.com →
+                patrexmedia1@gmail.com →
               </a>
             </li>
           </ul>

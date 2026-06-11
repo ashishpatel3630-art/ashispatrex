@@ -14,9 +14,9 @@ const themeConfigurations = {
     secondaryText: '#8e8e93',
     accentColor: '#0ea5e9',
     glassStepBg: 'rgba(20, 20, 22, 0.75)',
-    tooniImg: "Photos/Pro1.png",
+    tooniImg: "Photos/Selected_work/Pro1.png",
     tooniTitle: "NovaCart™ — Dress with Color",
-    novaImg: "Photos/Pro12.png",
+    novaImg: "Photos/Selected_work/Pro12.png",
     novaTitle: "NOVACART — Look New Everyday",
     testimonialQuote: '"Our dress shop became so much more efficient after the upgrade. From browsing to checkout, everything feels faster and more reliable for our customers."',
     testimonialAuthor: "Alexander Rowe",
@@ -30,13 +30,13 @@ const themeConfigurations = {
     secondaryText: '#86868b',
     accentColor: '#7f00ff',
     glassStepBg: 'rgba(255, 255, 255, 0.8)',
-    tooniImg: "/public/Photos/pro2.png",
+    tooniImg: "Photos/Selected_work/pro2.png",
     tooniTitle: "TOONI™ — Luxury Ready-To-Wear Editorial",
-    novaImg: "Photos/pro22.png",
+    novaImg: "Photos/Selected_work/pro22.png",
     novaTitle: "TONU — Next-Gen Trendings ",
     testimonialQuote: '"Working with this team completely changed how our dress shop looks and feels online. The design is smooth, fast, and our customers love browsing now."',
     testimonialAuthor: "Victoria Vance",
-    testimonialRole: "VP of Product, Tooni International"
+    testimonialRole: "VP of Product, Tooni"
   }
 };
 
@@ -46,7 +46,6 @@ export default function MasterPremiumEcosystem() {
   const cursorLabelRef = useRef(null);
   const approachLensRef = useRef(null);
 
-  // One state flag controlling every single module across the DOM simultaneously
   const [activeState, setActiveState] = useState('stateA');
   const current = themeConfigurations[activeState];
 
@@ -54,7 +53,6 @@ export default function MasterPremiumEcosystem() {
     const ctx = gsap.context(() => {
       const cursor = cursorRef.current;
 
-      // 1. Kinetic Ribbon Elastic Cursor Physics
       let mouse = { x: 0, y: 0 };
       let lastMouse = { x: 0, y: 0 };
       let cursorPos = { x: 0, y: 0 };
@@ -69,8 +67,7 @@ export default function MasterPremiumEcosystem() {
         const dt = 1.0 - Math.pow(1.0 - 0.18, gsap.ticker.deltaRatio());
         cursorPos.x += (mouse.x - cursorPos.x) * dt;
         cursorPos.y += (mouse.y - cursorPos.y) * dt;
-        
-        // Calculate velocity vector for the stretch ribbon effect
+
         const dx = mouse.x - lastMouse.x;
         const dy = mouse.y - lastMouse.y;
         const velocity = Math.min(Math.sqrt(dx * dx + dy * dy), 120);
@@ -319,7 +316,7 @@ export default function MasterPremiumEcosystem() {
 
           <div class="eco-suite-card eco-approach-box gsap-reveal-node global-transition-target" style={{ border: `1px solid ${current.borderColor}` }}>
             <div class="eco-lens-parallax-container">
-              <img ref={approachLensRef} src="Photos/pro3.png" alt="Lens Structure Module" />
+              <img ref={approachLensRef} src="Photos/Selected_work//pro3.png" alt="Lens Structure Module" />
             </div>
             <div class="eco-approach-inner-content">
               <h4 style={{ textTransform: 'uppercase', letterSpacing: '3px', fontSize: '13px', fontWeight: '700', color: '#ffffff' }}>Our Strategy</h4>
@@ -359,7 +356,7 @@ export default function MasterPremiumEcosystem() {
               {current.testimonialQuote}
             </p>
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-              <img src="Photos/C1.png" alt="Executive Node User" style={{ width: '44px', height: '44px', borderRadius: '50%', objectFit: 'cover' }} />
+              <img src="Photos/Selected_work//C1.png" alt="Executive Node User" style={{ width: '44px', height: '44px', borderRadius: '50%', objectFit: 'cover' }} />
               <div>
                 <div class="global-transition-target" style={{ fontSize: '13px', fontWeight: '600', letterSpacing: '1px', textTransform: 'uppercase', color: current.primaryText }}>{current.testimonialAuthor}</div>
                 <div class="global-transition-target" style={{ fontSize: '11px', color: current.secondaryText, marginTop: '2px' }}>{current.testimonialRole}</div>

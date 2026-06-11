@@ -16,41 +16,41 @@ import Footer from "../components/Footer";
 
 const projects = [
   {
-    src: "/photo/1.png",
+    src: "Photos/works/w1.png",
     category: "Web Development",
     title: "NOVACART",
     description: "Premium animated business experience running on low-latency interactive architecture layers.",
     link: "https://novacart-fj8q43s0p-ashish24.vercel.app/",
   },
   {
-    src: "/photo/4.png",
+    src: "Photos/works/w2.png",
     category: "Graphic Design",
     title: "Creative Campaign",
     description: "Visual identity, strategic messaging systems, and multi-channel structural social branding.",
   },
   {
-    src: "/photo/7.png",
+    src: "Photos/works/w3.png",
     category: "Logo Design",
     title: "Elite Logo",
     description: "Modern luxury logo concept engineered around geometric alignment vectors.",
   },
   {
-    src: "/photo/9.png",
+    src: "Photos/works/w4.png",
     category: "Web Development",
     title: "Shree Ji Farm",
     description: "Organic farm website experience with optimized response speeds and client scheduling workflows.",
     link: "https://shree-ji-farm.netlify.app/",
   },
   {
-    src: "/photo/5.png",
+    src: "Photos/works/w5.png",
     category: "UI/UX Design",
     title: "Mobile Dashboard",
     description: "Next-gen clean mobile analytical dashboard designed for productivity tracking layers.",
   },
   {
-    src: "/photo/3.png",
+    src: "Photos/works/w6.png",
     category: "Graphic Design",
-    title: "Social Media Kit",
+    title: "Social Media Kit",             
     description: "High-contrast structural brand marketing assets for maximum digital user retention.",
   },
 ];
@@ -190,7 +190,7 @@ export default function Work() {
            
                 <div className="absolute top-0 right-0 w-[70%] rounded-2xl overflow-hidden border border-white/5 bg-white/[0.01] shadow-2xl transition-transform duration-500 hover:-translate-y-2">
                   <img
-                    src="/photo/1.png"
+                    src="Photos/works/w1.png"
                     alt="Novacart"
                     className="w-full h-[280px] object-cover filter grayscale contrast-125"
                   />
@@ -202,7 +202,7 @@ export default function Work() {
 
                 <div className="absolute bottom-0 left-0 w-[60%] rounded-2xl overflow-hidden border border-white/5 bg-white/[0.01] shadow-2xl transition-transform duration-500 hover:-translate-y-2 z-10">
                   <img
-                    src="/photo/5.png"
+                    src="Photos/works/w5.png"
                     alt="Dashboard"
                     className="w-full h-[220px] object-cover filter grayscale contrast-125"
                   />

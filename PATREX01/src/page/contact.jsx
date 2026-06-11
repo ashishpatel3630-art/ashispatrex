@@ -56,10 +56,10 @@ export default function Contact() {
             <div className="flex flex-col gap-4 pt-8 border-t border-white/5 mt-4">
               <span className="font-mono text-[9px] text-zinc-600 uppercase tracking-[4px]">Direct Operations</span>
               <a 
-                href="mailto:hello@patrexmedia.com" 
+                href="mailto:patrexmedia1@gmail.com" 
                 className="font-mono text-xs text-zinc-400 hover:text-white transition-colors duration-200 tracking-wide"
               >
-                hello@patrexmedia1.com
+                patrexmedia1@gmail.com
               </a>
               <span className="font-mono text-[10px] text-zinc-600 tabular-nums tracking-widest mt-1">
                 RESPONSE TIME // WITHIN 24 HRS

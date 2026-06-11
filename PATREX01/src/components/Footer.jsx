@@ -16,7 +16,7 @@ export default function Footer() {
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
     { label: "Work", href: "#Work" },
-    { label: "Contact", href: "mailto:hello@patrexmedia.com" },
+    { label: "Contact", href: "mailto:patrexmedia1@gmail.com" },
   ];
 
   const legalLinks = [
@@ -255,7 +255,7 @@ export default function Footer() {
             >
               <a
                 ref={magneticButtonRef}
-                href="mailto:hello@patrexmedia1.com"
+                href="mailto:patrexmedia1@gmail.com"
                 className="inline-block 
                 font-mono 
                 text-[11px] uppercase 

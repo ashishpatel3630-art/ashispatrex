@@ -38,12 +38,11 @@ const PILLARS = [
     ]
   }
 ];
-
 const TEAM = [
-  { src: "/photo/team-left.png", name: "Raj Patel", role: "CO-FOUNDER", badge: "Operations" },
-  { src: "/Photos/ashish.png", name: "Ashish Mewada", role: "FOUNDER & CEO", badge: "Leadership" },
-  { src: "/photo/deepansh.png", name: "Deepansh Patel", role: "FRONTEND DEVELOPER & CDO", badge: "Core Tech" },
-  { src: "/photo/team-right.png", name: "Core Infrastructure", role: "CREATIVE PIPELINE", badge: "Production" }
+  { src: "/Photos/team/ashish.png", name: "Ashish Mewada", role: "FOUNDER & CEO", badge: "Leadership" },
+  { src: "/Photos/team/raj.png", name: "Raj Patel", role: "CO-FOUNDER", badge: "Operations" },
+  { src: "/Photos/team/Deepansh.png", name: "Deepansh Patel", role: "FRONTEND DEVELOPER & CDO", badge: "Core Tech" },
+  { src: "/Photos/team/Team.png", name: "Team Members", role: "CREATIVE PIPELINE", badge: "Members" }
 ];
 
 const STREAM_TAGS = [

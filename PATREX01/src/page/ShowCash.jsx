@@ -3,10 +3,10 @@ import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 
 const tags = ["Vercel", "GitHub", "Stripe", "Webflow", "Framer", "Linear", "Supabase", "Tailwind"];
 const images = [
-  "Photos/Showcash1.png",
-  "Photos/Showcash2.png",
-  "Photos/Showcash3.png",
-  "Photos/Showcash4.png",
+  "Photos/ShowCase/Showcash1.png",
+  "Photos/ShowCase/Showcash2.png",
+  "Photos/ShowCase/Showcash3.png",
+  "Photos/ShowCase/Showcash4.png",
 ];
 
 const themes = [
